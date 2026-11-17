@@ -1,0 +1,32 @@
+[
+  {
+    "path": "data/tactical/BAR-ATH_tactical_atd.txt",
+    "bytes": 195714285,
+    "sha256": "f130e350d2bfdf734b7e32f072931fccc6d015c1e837d082064875fe0a700431"
+  },
+  {
+    "path": "data/tactical/BAR-ATH_tactical_atd.xml",
+    "bytes": 59057,
+    "sha256": "327e35e32e46a647389b88f883d4f9a2ab931e3e6148aef2fcf8f22b1e93c43a"
+  },
+  {
+    "path": "data/tactical/BAR-ATH_tactical_homography.csv",
+    "bytes": 23187043,
+    "sha256": "421c81abe16f0912dc45c2541f9bf19dd5660066397a3dcc043038a1b61c28c3"
+  },
+  {
+    "path": "data/tactical/BAR-ATH_tactical_smart_tagging.xml",
+    "bytes": 261055,
+    "sha256": "0594d35e3df01b9c5002372d8615e2e8ef5379ac8f4e84c5ef7a53f4304c9019"
+  },
+  {
+    "path": "data/broadcast/BAR-ATH_broadcast_atd.txt",
+    "bytes": 141966465,
+    "sha256": "a71c1c9391e564032446be91ffbd7564205b47966060181532d80a338685e458"
+  },
+  {
+    "path": "data/broadcast/BAR-ATH_broadcast_atd.xml",
+    "bytes": 64956,
+    "sha256": "53d387bcdef718c2034ee2e05c3036c7edfa3cfcd5bbe8270a43695bd252dbe9"
+  }
+]

@@ -1,0 +1,366 @@
+[
+  {
+    "path": "challenge/evaluation/possession_metrics.py",
+    "sha256": "341bad48904b489d6e875397b27687f5d6a4d22a397f3dc8af3a00d48f16874d"
+  },
+  {
+    "path": "challenge/evaluation/run_evaluation.py",
+    "sha256": "1c61564fe52499ba4af3006fb5eb4147b825e92bf516651add80de49d267b19f"
+  },
+  {
+    "path": "challenge/evaluation/validate_submission.py",
+    "sha256": "07ac29499acbd337e1dc1de1832d63f6e1fa1d981e22f6ad08212529e2bbee14"
+  },
+  {
+    "path": "challenge/games.py",
+    "sha256": "3b2122794e9e0476e2b3a871d14880e5fa47c4feaeacf99caef054c2309076ce"
+  },
+  {
+    "path": "challenge/starter/baseline.py",
+    "sha256": "84d8a414fb1bdf8c7e1fbe4a8789fe6f9cc0c2cccec4685201285b75dbc0cfe6"
+  },
+  {
+    "path": "challenge/starter/load_homography.py",
+    "sha256": "3bc547b8034766023520b0bc2ffd5a4650ce60c9e20c09796cb4a0d805327bd8"
+  },
+  {
+    "path": "challenge/starter/load_smart_tagging.py",
+    "sha256": "cacfe90acf1deb37b3aa3e4666d6a9d5595c1766d59fe24c9150e1a1d51d0c64"
+  },
+  {
+    "path": "main_pipeline/__init__.py",
+    "sha256": "65a28d8f1b4280eb12903c6bbed95ac23eae10c8735a12a97803cfe95d15771d"
+  },
+  {
+    "path": "main_pipeline/__main__.py",
+    "sha256": "f4aa66bfacb1fec7402bcbb9e133c241a7d4d125adda4c68b138a45c11e6381d"
+  },
+  {
+    "path": "main_pipeline/check_weights.py",
+    "sha256": "ae04023110c8a5fffb6d441ccb9e93d69f543a738b3b5f692b04b8de4f448b80"
+  },
+  {
+    "path": "main_pipeline/config.py",
+    "sha256": "e4ac4d9a76b5e486838ea79eb2bc16caa7d47030b830987e24798a7a6bef8089"
+  },
+  {
+    "path": "main_pipeline/ensemble.py",
+    "sha256": "1f3be8a30fd6b3e723a6dfd039479d320fca7a6875c136be6cc545b5e861598f"
+  },
+  {
+    "path": "main_pipeline/verify_submission.py",
+    "sha256": "2f9cc6bb4a92a078e1b91ee7f2cba2b912b5bb562a2127d0aebd256e96b364de"
+  },
+  {
+    "path": "models/__init__.py",
+    "sha256": "ace8a582325aed6e217398a84564575472286f461bc3da11fb4a419d536b3572"
+  },
+  {
+    "path": "models/bilstm/__init__.py",
+    "sha256": "6ff2d2bbc168a83bd1781b5acac2ed0640518811df44448af97e252b00035f9b"
+  },
+  {
+    "path": "models/bilstm/inference/__init__.py",
+    "sha256": "c97dc07a41e1ba11e95f3fbd00427dbdd3a4f4ad0f37710b2dcf4e06b8f7f2e4"
+  },
+  {
+    "path": "models/bilstm/inference/bilstm_model.py",
+    "sha256": "62926d36d5b19a223aeb3d2a00286a6922abcc5a956c653a55452cb234fba7d0"
+  },
+  {
+    "path": "models/bilstm/inference/run_inference.py",
+    "sha256": "edd0fddbbe7af1820ee33efe3cae50e1b94110aa7b30dc63349bd9a496fc6364"
+  },
+  {
+    "path": "models/bilstm/training/download_idsse.py",
+    "sha256": "c373809568ae57f8be9d48b9c2e7390a302bf0ecad72284cd11f326ac8441973"
+  },
+  {
+    "path": "models/bilstm/training/possession_decode.py",
+    "sha256": "0f4ecc4f6581f80e494c666cd91d0a763886dd699b8fdcfbe63c91683b02ad6c"
+  },
+  {
+    "path": "models/bilstm/training/prepare_model_inputs.py",
+    "sha256": "2ab2611bc1d3e2ef4eb9a96b7f0d71dafe5667b653e1a14b8fd4bdb8e8bec4ba"
+  },
+  {
+    "path": "models/bilstm/training/prepare_model_inputs_v3.py",
+    "sha256": "18d0c7a5ae180c4646020db8825a783c0186c84b9ef012b35c23e371fc24971c"
+  },
+  {
+    "path": "models/bilstm/training/select_asymmetric_decoder.py",
+    "sha256": "030a6e4b097446b42dd294180807f5af2479f79be6dcfb17eb74c7177e69c05c"
+  },
+  {
+    "path": "models/bilstm/training/train_twohead_v3.py",
+    "sha256": "7848758864f035376017d90f464afb3c3fd87bbc15d59995229dafe558d5b54a"
+  },
+  {
+    "path": "models/physics/__init__.py",
+    "sha256": "caffa12b5702ac376d4848b46f377e4bfb955608e27ce1a3f7eb4066db16f3b0"
+  },
+  {
+    "path": "models/physics/inference/__init__.py",
+    "sha256": "53bd6452c2ebb3ed38e4a677e9f28034f268c7cf9ec78ac4a682b43b8cb6107c"
+  },
+  {
+    "path": "models/physics/inference/physics_model.py",
+    "sha256": "99a6f6b89ddb8c13c9c10f1540b58b98efbc51710ea0ac6937dcd482c3fa43b7"
+  },
+  {
+    "path": "models/physics/physics_rules/__init__.py",
+    "sha256": "1cf960cf5c7e9fbce6a88d97d426ec20cc35dec391dfd788d722bbff784b2397"
+  },
+  {
+    "path": "models/physics/physics_rules/arima.py",
+    "sha256": "0c264a9351bca1ddd7fd73cc4ee71dd21f70d0f2620dde54ee2b4ec5bba13907"
+  },
+  {
+    "path": "models/physics/physics_rules/data.py",
+    "sha256": "c13fd095a0da025fd68aa92cf43459ba0f85aaef9182b4beb2e11f7f1c718262"
+  },
+  {
+    "path": "models/physics/physics_rules/features.py",
+    "sha256": "2326f11a2d1bf394f0477ff66554f5ad8ee5e1464a4c052c0b171e804fbc766b"
+  },
+  {
+    "path": "models/physics/physics_rules/methods.py",
+    "sha256": "ad16abf8ac20757315a35a3419b23342d5dc42090a692dcec524455009784a27"
+  },
+  {
+    "path": "models/physics/physics_rules/v8.py",
+    "sha256": "0bbed93fbfdc245de09ab215ae61e29a5e72af44737d401be59d10ece143fb43"
+  },
+  {
+    "path": "models/physics/physics_rules/v9.py",
+    "sha256": "73d442d47d6dd0c090d2010fe0fb69fa59567376dcef6a4509b169b5ab663aa1"
+  },
+  {
+    "path": "models/tabular/__init__.py",
+    "sha256": "4addd8f91254a83619cf714a4cae6763cfa995390b7d9d5766a788fd91436a02"
+  },
+  {
+    "path": "models/tabular/inference/__init__.py",
+    "sha256": "5fbbcbeab00d0a1d057f5924547440d02df4b916c44d0b18215e9c928c9564a2"
+  },
+  {
+    "path": "models/tabular/inference/kumo.py",
+    "sha256": "803f85641474426a88e4f42e97376f039a927efc6a7c1b8b6b9f46869eb5da7a"
+  },
+  {
+    "path": "models/tabular/inference/tabular_features.py",
+    "sha256": "a0257beb2f6a5b138bd94ac89093261b8d0e7041435066d62484a36ce859dd70"
+  },
+  {
+    "path": "models/tabular/inference/tabular_models.py",
+    "sha256": "9a35a1a62dd8132ed59c6e957f9175c493f679bd19d9bc681acda3505e27645a"
+  },
+  {
+    "path": "models/tabular/src/context_v3.py",
+    "sha256": "7f0b2097fb958b607335b3f60e4433e411f3eb3abae39b766c863a82f51d9690"
+  },
+  {
+    "path": "models/tabular/src/idsse.py",
+    "sha256": "45aed5c056e44127e7d7573910bac73aa76c9438681bf3b75676cf8d3270417a"
+  },
+  {
+    "path": "models/tabular/src/lab/exp/common.py",
+    "sha256": "dead9bf1a565981d87b6e12ca4bcc64030d25bba7d26794e51c69e0953fa54e4"
+  },
+  {
+    "path": "models/tabular/src/lab/exp/ctx.py",
+    "sha256": "c4da6e2a614fda0c56469be551329d4fd8deca20cccd8137fbc832a47edb5643"
+  },
+  {
+    "path": "models/tabular/src/lab/exp/diag.py",
+    "sha256": "4a26e0812004b9f48ad71dcb3246cfc91794591d174c2babf8eb0d88a2cb0722"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_a/ta5.py",
+    "sha256": "25784268739966600d0c0e800244125db074d1d49fba6de33c0d5b72b2a5f79b"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_a/ta5_decode.py",
+    "sha256": "6efbbe80e17ea2691774ed63e360fd2a7e209132c959c903801cc873bf4a24db"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_ab/ab_decode.py",
+    "sha256": "f94be6e740097f1186f8b68a3cd2770fdfb1041b923066ed0822dcf961371343"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_b/extract_tb.py",
+    "sha256": "0dba91539e208ed4f5c468f9a3097806c601d3b51dd534e6f6882c26bb47c9e0"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_b/feat_tb.py",
+    "sha256": "a0ce2d6d26edcd9e3bbd659c9d70c7596066696cc4b7bfd92f1afec2e40f2bcf"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_b/run_tb.py",
+    "sha256": "85a541bb9a95f7b379b74fbd00c9a3601323aecc36637e84b2a57d5b944b8733"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_bench/dfl_events.py",
+    "sha256": "99513d8b6d266f475e556515488d3044cd1a821c669c437c3d3e4a5e77759161"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_bench/labels.py",
+    "sha256": "3d9557d17d55b3e2474db4cd4ddd95a6a422003019950fff40f0187d9ffdbabd"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_c/conv.py",
+    "sha256": "c60f26d714fde5ff19ef8a7f255bf032b7c05eb8142fe00c708da49d4cb86f17"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_d/dball.py",
+    "sha256": "318ecb13a891587e54e00bdacc71883dd9d3abc62579915363181c0bc19557fd"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_d/kick.py",
+    "sha256": "4f089794cbef4eda46262b7dcce9019fffe5f255a03bb4d12ba6bef16bbe5c25"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_dball/carry.py",
+    "sha256": "5a673490a0b16317c6372fca0929ccdf64a69d46a13cff938b4a423de8652e3a"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_dball/conds.py",
+    "sha256": "518d3e04a6cc8472668dbfd552f3ed738715e90667650ed2aa39c7b9869af593"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_dball/dpa.py",
+    "sha256": "e9df1cc84e0313f05c7fb3923935218ef7aad06cde22647b4efb866a0630b444"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_dball/sfeat.py",
+    "sha256": "2d2bfe8ec9287d404bb4ce6eab80ce284dec78675c7d5e6e37cf165d4b34060c"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/bar_k.py",
+    "sha256": "6495acff54aab3c2e915d02f433d8c0e4489b91feec52a64c00e13413a0e56f5"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/bar_k2.py",
+    "sha256": "af5c1903e04fd8047e2b5a43b9a03e220a06250a1856b3b4f6921a47123fc048"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/bar_k3.py",
+    "sha256": "99904f5564c791f9d383e83ae6602b162f7ee6a212f48405fa4661c5efafc962"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/kr.py",
+    "sha256": "7058cad1bfc9e61a10b5391a5a18f56ad99bcfe4dd9083d774d2093584e033f7"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/kt.py",
+    "sha256": "40a6c5d2e9706d5468d33a43ab588b7e4e3992489d710ceddb13c4305b1e6876"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_k/kt_pa.py",
+    "sha256": "8ae62608e0458fbeea12f58c9eee7667fbcdef5c72a5553a21c929159340c329"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/bar_v2.py",
+    "sha256": "1e524625e16b6e688beb44c96d41be12d86b8c6d75ddc52ca2b3c3c92ccdaf38"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/conv_sc.py",
+    "sha256": "d84f9044aba5a730ffc5d36e3687673a1c9954c86d17270a43625c37e2d2cf46"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/dur.py",
+    "sha256": "aeb2fbecf397f65259a113df1e3f0137e386acc946173c3afa8f029a426115ee"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/palive.py",
+    "sha256": "0c9b2f46900501858c87efcaabbf4c730ac2ecdb3c388d7f49e5237c5d9ecda8"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/pfeat.py",
+    "sha256": "dfd4a4a2cb0f22e822883f6eefa513e98efdd69de5e110be6a90e63681e83954"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/sc_build.py",
+    "sha256": "6d84f636c5b3ed8120f80ad819cf3038ba7de575c4f008ac0990ad2d3723171b"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_sc/xfer.py",
+    "sha256": "af590893eb13eb2d8836c8b47479342e3423463b06fc68b4ac7f4208fd35837d"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_t/bar.py",
+    "sha256": "292f627ef9d079612b554f192feed27bdb8ae9f0bf2e2e4bee6ed378376e5946"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_t/build_bar.py",
+    "sha256": "ad4fffa540534311c115e746bc9a397134691659a3c8975cf946275563a67f83"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_t/decode_bar.py",
+    "sha256": "333350578e021ff820c012d634d3eb792ed62ae3287b90215ec6b85138d532e5"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_t/smooth.py",
+    "sha256": "6ecd486c771db08274c9d3cd6236f7c8d81b7ce85909d459e197f4a083925edd"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_u/smooth_u.py",
+    "sha256": "c73ac9ed2739dce7859b7f53b73a24cb08041feb124382f4f966590f296e206d"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_u/u_decode.py",
+    "sha256": "1b4068bae68d881535f14045c1ed3ffb82e8c8910dca35e6f86e460624323457"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_u/u_fit.py",
+    "sha256": "f37b42c865bfcc5ff5ece420b9208b2d7e42562dfb695dfbe0601d861aa2f531"
+  },
+  {
+    "path": "models/tabular/src/lab/exp_u/unfreeze.py",
+    "sha256": "c5e24a93d02fc8d7e4058262d46ee5785e14c82d5e8066bbcab28f809fb2384f"
+  },
+  {
+    "path": "models/tabular/src/paired_bootstrap.py",
+    "sha256": "62d92ff758bc4a87dc8c8826bf8bb8dd83457647f24328beb7bb813519c13ffc"
+  },
+  {
+    "path": "models/tabular/src/pipeline.py",
+    "sha256": "71060faebb96f785966960b5c3c438f8c0bd15cd31f75ec1b1b574e863ff541a"
+  },
+  {
+    "path": "models/tabular/src/tabular.py",
+    "sha256": "757d9cad40015e019f4c9c9f278f9626843ef9f2be180e94b3da35220fb9a1db"
+  },
+  {
+    "path": "models/tabular/training/wcap.py",
+    "sha256": "93b760d0986c0227f3883004275a43f35117d72968b2e5250499d1a3c952a538"
+  },
+  {
+    "path": "models/training_sources.py",
+    "sha256": "995166afc91426b38a6f312272d8bb19722ae567cd5a4d3e094bcccc1a7cd379"
+  },
+  {
+    "path": "pyproject.toml",
+    "sha256": "01fee2b44c879215f8e6e4f3673774bad935079fd33f2b5e3b6c9dd76e37904d"
+  },
+  {
+    "path": "requirements-training.txt",
+    "sha256": "4f47268683769305d9378dda5d8e87640ac0c84bb6bbcb6016734e1c159a5f02"
+  },
+  {
+    "path": "requirements.txt",
+    "sha256": "339c64a3f8fcc986e22733cc797bea4a3e871b1536bfebedd485ce29f99daf16"
+  },
+  {
+    "path": "training_data.lock.json",
+    "sha256": "95640b463262b18ad3b591e25308da2fe8db8c501afced0c0024c99b0d632069"
+  },
+  {
+    "path": "uv.lock",
+    "sha256": "0ebc3524b2b35ae1aa5ca6f273a787c13ca2809e967cd9bc622680a32ce9fa18"
+  },
+  {
+    "path": "weights.lock.json",
+    "sha256": "58e7f73b56531d784324e619e631a55c9cbf0fb4caf2dc39b9d4af00e51b9206"
+  }
+]

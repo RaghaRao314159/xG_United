@@ -1,0 +1,16 @@
+# Keep provided match assets and intermediate tracking exports out of the public repository.
+data/
+work/
+# Include only the final algorithm-generated possession predictions.
+/submission/*
+!/submission/xG United.csv
+# scratch folder of the tabular feature code (derived from the match data)
+models/tabular/runs/
+# NVIDIA's Kumo Tabular checkpoint (855 MB), downloaded by the check_weights stage
+models/tabular/weights/kumo_checkpoint/
+
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+.env

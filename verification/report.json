@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "temporary_runpod_pod_terminated": true,
+  "verified_at_utc": "2026-11-17T18:50:16Z",
+  "verified_date_singapore": "2026-11-18",
+  "pipeline_finished_at_utc": "2026-11-17T18:50:03Z",
+  "pipeline_runtime_seconds": 369,
+  "runtime_scope": "All six pipeline stages, including Kumo download; excludes environment installation and file transfer.",
+  "clean_run": {
+    "reference_csv_uploaded": false,
+    "prediction_caches_uploaded": false,
+    "initial_submission_directory_present": false,
+    "initial_work_directory_present": false,
+    "input_assets_sha256_checked": 6
+  },
+  "commands": [
+    "uv sync --locked",
+    "uv run --locked python -m main_pipeline --data /workspace/data --device cuda --threads 8 --verify-reference",
+    "uv run --locked python challenge/evaluation/validate_submission.py \"submission/xG United.csv\"",
+    "uv run --locked python -m main_pipeline.verify_submission"
+  ],
+  "environment": {
+    "gpu": "NVIDIA A40",
+    "gpu_count": 1,
+    "gpu_memory_mib": 46068,
+    "nvidia_driver": "595.112.07",
+    "os": "Ubuntu 24.04.3 LTS",
+    "platform": "Linux x86_64, glibc 2.39",
+    "base_container_image": "runpod/pytorch:1.0.2-cu1281-torch280-ubuntu2404",
+    "base_image_registry_digest_at_creation": "sha256:0a360022e8de4375af99430f84e8b38951acc397252163a37ceac7204d01be35",
+    "python": "3.11.13",
+    "uv": "0.13.6",
+    "pytorch": "2.15.0+cu132",
+    "cuda_runtime": "13.2",
+    "cudnn_package": "9.26.0.51",
+    "allocated_vcpu": 9,
+    "threads": 8,
+    "neural_precision": "CUDA float16 autocast",
+    "kumo_seed": 0,
+    "kumo_estimators": 4,
+    "kumo_prediction_batch_rows": 8192,
+    "bilstm_batch_windows": 64
+  },
+  "captured_environment": "verification/environment.json",
+  "run_log": "verification/run.log",
+  "input_manifest": "verification/input_files.json",
+  "tested_source_manifest": "verification/source_files.json",
+  "source_manifest_scope": "Uploaded Python sources retained in the repository, dependency manifests, and weight/data lockfiles; excludes documentation, the PDF renderer moved to the parent directory after verification, and the Python selection file. The latter was subsequently pinned to the observed Python 3.11.13.",
+  "uv_lock_sha256": "0ebc3524b2b35ae1aa5ca6f273a787c13ca2809e967cd9bc622680a32ce9fa18",
+  "results": {
+    "official_format_validator": "passed",
+    "exact_reference_sha256": "passed",
+    "downloaded_csv_local_byte_comparison": "passed",
+    "model_assets_verified": 30,
+    "submission": {
+      "path": "submission/xG United.csv",
+      "rows": 199319,
+      "md5": "6b266c5aadc2885a8b3051de0db15386",
+      "sha256": "ac2aba453442471bde7e2e34f74e36b58062701b5be6523b22f9b432f4edf6f6",
+      "bytes": 1682773,
+      "label_counts": {
+        "H": 51770,
+        "A": 30708,
+        "D": 76379,
+        "X": 40462
+      }
+    }
+  },
+  "scope": "Reproduction of the submission from supplied fitted weights. Retraining of those weights was not part of this verification."
+}

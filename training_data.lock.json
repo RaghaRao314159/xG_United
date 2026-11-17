@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "description": "External training sources only. No BAR-ATH match assets or labels.",
+  "revision_note": "Source revisions pinned during submission packaging; the match list is cross-checked against the tabular sc-stats.json and bundled physics calibration. This is not a claim that historical training environments were fully captured.",
+  "idsse": {
+    "repository": "https://huggingface.co/datasets/pysport/idsse-data",
+    "revision": "a715a38dfbaf5f58e431727c2b78d174101a703c",
+    "matches": [
+      "J03WMX",
+      "J03WN1",
+      "J03WOH",
+      "J03WOY",
+      "J03WPY",
+      "J03WQQ",
+      "J03WR9"
+    ],
+    "doi": "https://doi.org/10.1038/s41597-025-04505-y",
+    "provider": "DFL",
+    "license": "CC BY 4.0",
+    "labels": "Provider BallStatus and BallPossession; provider events support tabular rule-E relabelling."
+  },
+  "skillcorner": {
+    "repository": "https://github.com/SkillCorner/opendata",
+    "revision": "4340d274572876239c154c90bc507a9b3250a656",
+    "matches": [
+      "1874553",
+      "1886347",
+      "1899585",
+      "1925299",
+      "1927964",
+      "1953632",
+      "1959846",
+      "1986691",
+      "1996435",
+      "1996436",
+      "2006229",
+      "2006363",
+      "2007448",
+      "2007721",
+      "2010085",
+      "2011166",
+      "2013725",
+      "2015213",
+      "2016236",
+      "2017461"
+    ],
+    "files": [
+      "match.json",
+      "phases_of_play.csv",
+      "dynamic_events.csv",
+      "tracking_extrapolated.jsonl"
+    ],
+    "labels": "Provider phases_of_play team_in_possession_id inside each phase; dead ball outside phases within a period."
+  },
+  "model_usage": {
+    "tabular": {
+      "idsse": [
+        "J03WMX",
+        "J03WN1",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ",
+        "J03WR9"
+      ],
+      "skillcorner": [
+        "1874553",
+        "1886347",
+        "1899585",
+        "1925299",
+        "1927964",
+        "1953632",
+        "1959846",
+        "1986691",
+        "1996435",
+        "1996436",
+        "2006229",
+        "2006363",
+        "2007448",
+        "2007721",
+        "2010085",
+        "2011166",
+        "2013725",
+        "2015213",
+        "2016236",
+        "2017461"
+      ],
+      "preprocessing": "25 fps tables; synthetic tracking degradation, rule-R2/rule-E labels and carried-ball variants, as documented in models/tabular/README.md."
+    },
+    "bilstm": {
+      "train": [
+        "J03WPY",
+        "J03WMX",
+        "J03WOH",
+        "J03WQQ"
+      ],
+      "development": [
+        "J03WN1"
+      ],
+      "reserved_not_loaded": [
+        "J03WR9"
+      ],
+      "preprocessing": "Provider labels; clean and seeded player-gap copies."
+    },
+    "physics": {
+      "idsse": [
+        "J03WMX",
+        "J03WN1",
+        "J03WOH",
+        "J03WOY",
+        "J03WPY",
+        "J03WQQ",
+        "J03WR9"
+      ],
+      "skillcorner": [
+        "1874553",
+        "1886347",
+        "1899585",
+        "1925299",
+        "1927964",
+        "1953632",
+        "1959846",
+        "1986691",
+        "1996435",
+        "1996436",
+        "2006229",
+        "2006363",
+        "2007448",
+        "2007721",
+        "2010085",
+        "2011166",
+        "2013725",
+        "2015213",
+        "2016236",
+        "2017461"
+      ],
+      "preprocessing": "Separate converted EPTS-style inputs. Original conversion script is unavailable; bundled cross_match_arima_learned.json is used for submission inference."
+    }
+  }
+}

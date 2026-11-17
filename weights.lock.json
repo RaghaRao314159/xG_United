@@ -1,0 +1,131 @@
+{
+ "about": "SHA-256 of every model file the pipeline reads. 'files' are stored in this repository; 'downloads' is NVIDIA's public Kumo Tabular checkpoint, fetched from Hugging Face at a pinned revision into models/tabular/weights/kumo_checkpoint/ (too large for git: 855 MB). The check_weights stage verifies all of them and stops on any mismatch.",
+ "files": [
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/kumo_b.context.npz",
+   "sha256": "329564029665f8abe8b16fca518a97c9999c9c1bf31937cb49e8b48729d4c719"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/kumo_b.columns.npy",
+   "sha256": "0871397ea3b6f7b1f281fcc0d14f783df5937b98fb53cbff539f3a338755bc70"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/lightgbm_b.txt",
+   "sha256": "ef35cac7e8963ec671545bf6b6abcb0e4ecaed6639ad455235b8201a274962f2"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/features_b.json",
+   "sha256": "fd621fa90d9262d7b434084b38e46e3cce32572169ef7406f5f08dcdc56242b3"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/kumo_ab.context.npz",
+   "sha256": "027dc7e424bab35e6a9e35fd357ac452a6a9011b171b3d6bdb22609168f4ffab"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/kumo_ab.columns.npy",
+   "sha256": "be8c2507603ac5bf18051557c6b355dc6a18417df3d09ba3a336b364dd5b4011"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/lightgbm_ab.txt",
+   "sha256": "46114b9a7d796cdf49deddcf4366a1ac15d4ae12ca8f31b6ff0cf521d16ed034"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_R2/features_ab.json",
+   "sha256": "4fa578cca114ba4e3ad780f9ea759946ef54dd73074e058ce093dcfb82e3ea7a"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/kumo_b.context.npz",
+   "sha256": "4c31fd01c62bd759fc77c608059cb565c65886171104c0f1ad8560e2b402c4ec"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/kumo_b.columns.npy",
+   "sha256": "fb71b8ffb2a396935bd95c4d7768b41e5b4646588328fdcae49f619b3f246d3d"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/lightgbm_b.txt",
+   "sha256": "7c50f016aa79b04aad4508f3c96aa654ee1f5b8a01efde73081626e5ecbe240d"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/features_b.json",
+   "sha256": "fd621fa90d9262d7b434084b38e46e3cce32572169ef7406f5f08dcdc56242b3"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/kumo_ab.context.npz",
+   "sha256": "0c2590d71479d53ef9f2b723488fc262dfa508ccd8ec7dc99ef8912f7bdb3904"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/kumo_ab.columns.npy",
+   "sha256": "17088ad87bdca3816b4423ad21b303ec4f9f69bc7ac8d7313be9be3272d113c5"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/lightgbm_ab.txt",
+   "sha256": "5e308d8dc26525f9d90fea511bb1abe5274c3f8c2aba7712d17a4da5b0ab6abd"
+  },
+  {
+   "path": "models/tabular/weights/team_idsse_rule_E/features_ab.json",
+   "sha256": "4fa578cca114ba4e3ad780f9ea759946ef54dd73074e058ce093dcfb82e3ea7a"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_skillcorner/lightgbm.txt",
+   "sha256": "910d8ac1655392b7ad9f598f00128757cfa2b77c44e9e937890b05e4289f2e4d"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_skillcorner/lightgbm.meta.json",
+   "sha256": "16c35f14309db046d3c82e585ffd5a804928b5ed2b4f935c0d6f802cd5c7b734"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_skillcorner/kumo.context.npz",
+   "sha256": "38b9f02dea4aedd8798b61ae874d7387268376c5d149fa3b12d80325d3c5758f"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_skillcorner/kumo.columns.npy",
+   "sha256": "eeea795b608c32ab041c58bb07507899facf799d3a4384f84f3e241575e76ce7"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_skillcorner/features.json",
+   "sha256": "db0fd62c81321019e1eb126b97b20cd524c6ee69a96aebaa45378ee8a8ff4963"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_carried_ball/lightgbm.txt",
+   "sha256": "c86393135670782a38cb3a4b943b3a0b64ffc0e18fc0c2d247a6844026d3dc9d"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_carried_ball/lightgbm.meta.json",
+   "sha256": "9bea394258998be0e8adba76987f5709ba43074543bdf6d595096bd453993f4a"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_carried_ball/kumo.context.npz",
+   "sha256": "5c36ba07f7d52ad05e7ea813cd30e716e45bf0250d182fe6cbede061de080d6a"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_carried_ball/kumo.columns.npy",
+   "sha256": "4fd10af743c8b46696004a0da411d4aaedb0243621112613fb689e042422bb34"
+  },
+  {
+   "path": "models/tabular/weights/dead_ball_idsse_carried_ball/features.json",
+   "sha256": "db0fd62c81321019e1eb126b97b20cd524c6ee69a96aebaa45378ee8a8ff4963"
+  },
+  {
+   "path": "models/bilstm/weights/model_weights.pt",
+   "sha256": "e1135a585827ab100dae4b69c09e357be5a7bb77beb4166bf9e276d05034163e"
+  },
+  {
+   "path": "models/physics/weights/cross_match_arima_learned.json",
+   "sha256": "fa5f6d494eef4e2dde9fa4b8c3efebf3924ec8577f49b07a90342549de1f1837"
+  }
+ ],
+ "downloads": [
+  {
+   "repo": "nvidia/Kumo-Tabular",
+   "revision": "v1.0.1",
+   "file": "large/classifier.pt",
+   "sha256": "cc21484316949641cc3d65a7bb6c36cdea854cc569435755ff23b850018ec613"
+  },
+  {
+   "repo": "nvidia/Kumo-Tabular",
+   "revision": "v1.0.1",
+   "file": "config.json",
+   "sha256": "de7d618ec4019293e976e37371612ff9b8e71c22336c463a7225b0f130e78318"
+  }
+ ]
+}

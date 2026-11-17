@@ -1,0 +1,257 @@
+All six input assets match the local SHA-256 records.
+uv 0.13.6 (x86_64-unknown-linux-gnu)
+Using CPython 3.11.13 interpreter at: /usr/bin/python3.11
+Creating virtual environment at: .venv
+Resolved 78 packages in 3ms
+Downloading nvidia-cuda-cupti (11.4MiB)
+Downloading networkx (2.0MiB)
+Downloading hf-xet (4.1MiB)
+Downloading nvidia-cublas (386.1MiB)
+Downloading nvidia-cufile (1.3MiB)
+Downloading numpy (16.1MiB)
+Downloading nvidia-cuda-runtime (2.2MiB)
+Downloading pyarrow (52.5MiB)
+Downloading sympy (6.0MiB)
+Downloading statsmodels (11.5MiB)
+Downloading nvidia-nccl-cu13 (206.0MiB)
+Downloading triton (272.5MiB)
+Downloading nvidia-nvshmem-cu13 (129.1MiB)
+Downloading nvidia-cusparse (144.0MiB)
+Downloading nvidia-cusparselt-cu13 (162.3MiB)
+Downloading cuda-bindings (8.0MiB)
+Downloading nvidia-cudnn-cu13 (495.1MiB)
+Downloading nvidia-cusolver (217.4MiB)
+Downloading torch (514.2MiB)
+Downloading nvidia-nvjitlink (44.5MiB)
+Downloading nvidia-cuda-nvrtc (44.8MiB)
+Downloading nvidia-cufft (208.1MiB)
+Downloading lightgbm (3.3MiB)
+Downloading nvidia-cuda-cccl (3.9MiB)
+Downloading scipy (33.7MiB)
+Downloading pandas (11.8MiB)
+ Downloaded nvidia-cufile
+ Downloaded networkx
+ Downloaded nvidia-cuda-runtime
+ Downloaded lightgbm
+ Downloaded hf-xet
+ Downloaded nvidia-cuda-cccl
+ Downloaded sympy
+ Downloaded cuda-bindings
+ Downloaded nvidia-cuda-cupti
+ Downloaded statsmodels
+ Downloaded numpy
+ Downloaded pandas
+ Downloaded scipy
+ Downloaded nvidia-nvjitlink
+ Downloaded nvidia-cuda-nvrtc
+ Downloaded pyarrow
+ Downloaded nvidia-nvshmem-cu13
+ Downloaded nvidia-cusparse
+ Downloaded nvidia-cusparselt-cu13
+ Downloaded nvidia-nccl-cu13
+ Downloaded nvidia-cufft
+ Downloaded nvidia-cusolver
+ Downloaded triton
+ Downloaded nvidia-cublas
+ Downloaded nvidia-cudnn-cu13
+ Downloaded torch
+Prepared 56 packages in 9.42s
+Installed 56 packages in 1.47s
+ + anyio==4.16.0
+ + click==8.5.1
+ + cuda-bindings==13.5.0
+ + cuda-pathfinder==1.9.0
+ + cuda-toolkit==13.2.2
+ + filelock==4.2.11
+ + formulaic==1.2.2
+ + fsspec==2026.9.0
+ + h11==0.16.0
+ + hf-xet==1.8.0
+ + httpcore2==2.16.2
+ + httpx2==2.16.2
+ + huggingface-hub==2.4.0
+ + idna==3.20
+ + interface-meta==2.0.1
+ + jinja2==3.1.6
+ + lightgbm==4.7.0
+ + markupsafe==3.0.4
+ + mpmath==1.3.0
+ + narwhals==2.29.0
+ + networkx==3.6.1
+ + numpy==2.4.6
+ + nvidia-cublas==13.4.1.3
+ + nvidia-cuda-cccl==13.3.5.0.6
+ + nvidia-cuda-cupti==13.2.86
+ + nvidia-cuda-nvrtc==13.2.86
+ + nvidia-cuda-runtime==13.2.86
+ + nvidia-cudnn-cu13==9.26.0.51
+ + nvidia-cufft==12.2.0.57
+ + nvidia-cufile==1.17.1.22
+ + nvidia-cusolver==12.2.0.11
+ + nvidia-cusparse==12.7.10.12
+ + nvidia-cusparselt-cu13==0.8.1
+ + nvidia-nccl-cu13==2.30.7
+ + nvidia-nvjitlink==13.5.37
+ + nvidia-nvshmem-cu13==3.7.2
+ + nvidia-nvtx==13.2.86
+ + packaging==26.3
+ + pandas==3.1.0
+ + patsy==1.0.3
+ + pyarrow==26.0.1
+ + python-dateutil==4.0.0
+ + pyyaml==6.0.3
+ + safetensors==0.8.0
+ + scipy==1.17.1
+ + setuptools==84.2.1
+ + statsmodels==0.15.0
+ + structured-data-models==0.2.1
+ + sympy==1.14.0
+ + torch==2.15.0
+ + tqdm==4.70.1
+ + triton==3.9.0
+ + truststore==0.10.5
+ + typing-extensions==4.16.0
+ + tzdata==2026.6
+ + wrapt==2.5.2
+{
+  "python": "3.11.13 (main, Jun  4 2025, 08:57:30) [GCC 13.3.0]",
+  "os_release": "PRETTY_NAME=\"Ubuntu 24.04.3 LTS\"\nNAME=\"Ubuntu\"\nVERSION_ID=\"24.04\"\nVERSION=\"24.04.3 LTS (Noble Numbat)\"\nVERSION_CODENAME=noble\nID=ubuntu\nID_LIKE=debian\nHOME_URL=\"https://www.ubuntu.com/\"\nSUPPORT_URL=\"https://help.ubuntu.com/\"\nBUG_REPORT_URL=\"https://bugs.launchpad.net/ubuntu/\"\nPRIVACY_POLICY_URL=\"https://www.ubuntu.com/legal/terms-and-policies/privacy-policy\"\nUBUNTU_CODENAME=noble\nLOGO=ubuntu-logo\n",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.39",
+  "torch": "2.15.0+cu132",
+  "cuda_runtime": "13.2",
+  "cudnn_numeric": 92600,
+  "gpu_name": "NVIDIA A40",
+  "gpu_count": 1,
+  "nvidia_smi": "NVIDIA A40, 595.112.07, 46068 MiB",
+  "uv": "uv 0.13.6 (x86_64-unknown-linux-gnu)"
+}
+== check_weights: check every weight file against weights.lock.json; download NVIDIA's Kumo network
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+  ok  models/tabular/weights/team_idsse_rule_R2/kumo_b.context.npz
+  ok  models/tabular/weights/team_idsse_rule_R2/kumo_b.columns.npy
+  ok  models/tabular/weights/team_idsse_rule_R2/lightgbm_b.txt
+  ok  models/tabular/weights/team_idsse_rule_R2/features_b.json
+  ok  models/tabular/weights/team_idsse_rule_R2/kumo_ab.context.npz
+  ok  models/tabular/weights/team_idsse_rule_R2/kumo_ab.columns.npy
+  ok  models/tabular/weights/team_idsse_rule_R2/lightgbm_ab.txt
+  ok  models/tabular/weights/team_idsse_rule_R2/features_ab.json
+  ok  models/tabular/weights/team_idsse_rule_E/kumo_b.context.npz
+  ok  models/tabular/weights/team_idsse_rule_E/kumo_b.columns.npy
+  ok  models/tabular/weights/team_idsse_rule_E/lightgbm_b.txt
+  ok  models/tabular/weights/team_idsse_rule_E/features_b.json
+  ok  models/tabular/weights/team_idsse_rule_E/kumo_ab.context.npz
+  ok  models/tabular/weights/team_idsse_rule_E/kumo_ab.columns.npy
+  ok  models/tabular/weights/team_idsse_rule_E/lightgbm_ab.txt
+  ok  models/tabular/weights/team_idsse_rule_E/features_ab.json
+  ok  models/tabular/weights/dead_ball_idsse_skillcorner/lightgbm.txt
+  ok  models/tabular/weights/dead_ball_idsse_skillcorner/lightgbm.meta.json
+  ok  models/tabular/weights/dead_ball_idsse_skillcorner/kumo.context.npz
+  ok  models/tabular/weights/dead_ball_idsse_skillcorner/kumo.columns.npy
+  ok  models/tabular/weights/dead_ball_idsse_skillcorner/features.json
+  ok  models/tabular/weights/dead_ball_idsse_carried_ball/lightgbm.txt
+  ok  models/tabular/weights/dead_ball_idsse_carried_ball/lightgbm.meta.json
+  ok  models/tabular/weights/dead_ball_idsse_carried_ball/kumo.context.npz
+  ok  models/tabular/weights/dead_ball_idsse_carried_ball/kumo.columns.npy
+  ok  models/tabular/weights/dead_ball_idsse_carried_ball/features.json
+  ok  models/bilstm/weights/model_weights.pt
+  ok  models/physics/weights/cross_match_arima_learned.json
+  ok  nvidia/Kumo-Tabular/large/classifier.pt @ v1.0.1
+  ok  nvidia/Kumo-Tabular/config.json @ v1.0.1
+weights: 30 files verified against weights.lock.json
+   check_weights took 6 s
+== tabular_features: features of the tabular models from the tactical tracking (Ragha)
+features: 199319 frames, 46 slots, 7 s
+  ball tracked on 59.3% of graded frames
+  median on-screen slots per graded frame: 20
+raw_tb: 199319 frames, 46 slots (24 home / 22 away), pitch [105.30000305175781, 68.0]
+  graded frames 158857, ball seen on 59.3%
+  median players on screen per graded frame: 20 (home 10, away 10); share of graded frames with >= 18 shown 88.5%
+  7 s
+/workspace/xG_United/models/tabular/src/lab/exp_b/feat_tb.py:162: RuntimeWarning: Mean of empty slice
+  cx_m = np.nanmean(xs, axis=1)
+/workspace/xG_United/.venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/workspace/xG_United/models/tabular/src/lab/exp_b/feat_tb.py:169: RuntimeWarning: Mean of empty slice
+  out["pspeed_" + side] = np.nanmean(pspeed[:, mask], axis=1)
+/workspace/xG_United/models/tabular/src/lab/exp_b/feat_tb.py:162: RuntimeWarning: Mean of empty slice
+  cx_m = np.nanmean(xs, axis=1)
+/workspace/xG_United/.venv/lib/python3.11/site-packages/numpy/lib/_nanfunctions_impl.py:1997: RuntimeWarning: Degrees of freedom <= 0 for slice.
+  var = nanvar(a, axis=axis, dtype=dtype, out=out, ddof=ddof,
+/workspace/xG_United/models/tabular/src/lab/exp_b/feat_tb.py:169: RuntimeWarning: Mean of empty slice
+  out["pspeed_" + side] = np.nanmean(pspeed[:, mask], axis=1)
+tabular features: written to /workspace/xG_United/work/tabular/features
+   tabular_features took 29 s
+== tabular_models: 8 tabular team members and 2 dead-ball models (Ragha)
+  dead_ball_idsse_skillcorner done
+  dead_ball_idsse_carried_ball done
+  team_idsse_rule_R2 kumo_b done
+  team_idsse_rule_R2 lightgbm_b done
+  team_idsse_rule_E kumo_b done
+  team_idsse_rule_E lightgbm_b done
+  team_idsse_rule_R2 kumo_ab done
+  team_idsse_rule_R2 lightgbm_ab done
+  team_idsse_rule_E kumo_ab done
+  team_idsse_rule_E lightgbm_ab done
+tabular models: written to /workspace/xG_United/work/tabular/probabilities.npz
+   tabular_models took 291 s
+== bilstm_model: two-head BiLSTM (Tiya)
+bilstm: written to /workspace/xG_United/work/bilstm/probabilities.npz
+   bilstm_model took 10 s
+== physics_model: physics model v9d (Narmee)
+/workspace/xG_United/models/physics/physics_rules/v9.py:123: RuntimeWarning: Mean of empty slice
+  cx_t = np.nanmean(px, axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:124: RuntimeWarning: Mean of empty slice
+  cy_t = np.nanmean(py, axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:125: RuntimeWarning: Mean of empty slice
+  cx_b = np.nanmean(px_b, axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:126: RuntimeWarning: Mean of empty slice
+  cy_b = np.nanmean(py_b, axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:131: RuntimeWarning: All-NaN slice encountered
+  dh_t_all = np.nanmin(np.where((m.team == 0)[None, :], dist_t, np.nan), axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:132: RuntimeWarning: All-NaN slice encountered
+  da_t_all = np.nanmin(np.where((m.team == 1)[None, :], dist_t, np.nan), axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:175: RuntimeWarning: All-NaN slice encountered
+  dh_b = np.nanmin(np.where((team_b == 0)[None, :], dist_b, np.nan), axis=1)
+/workspace/xG_United/models/physics/physics_rules/v9.py:176: RuntimeWarning: All-NaN slice encountered
+  da_b = np.nanmin(np.where((team_b == 1)[None, :], dist_b, np.nan), axis=1)
+physics model v9d: written to /workspace/xG_United/work/physics/v9d_labels.npy
+   physics_model took 25 s
+== ensemble: combine, decode and write the submission
+OK    xG United.csv
+      199319 rows, frame 0..199318
+
+      label counts
+        H    51770   26.0%
+        A    30708   15.4%
+        D    76379   38.3%
+        X    40462   20.3%
+
+      reports 242 possessions of mean 13.6 s
+      (counted with each X as a gap; the scorer bridges abstentions inside a real
+       possession, so its count can be lower than this one)
+
+Valid. Note this checks the format only -- it says nothing about whether the labels are right.
+Score it against the public ground truth with run_evaluation.py.
+ensemble: wrote /workspace/xG_United/submission/xG United.csv {"rows": 199319, "dead_ball_share": 0.4808}
+   ensemble took 8 s
+Exact submission verified: /workspace/xG_United/submission/xG United.csv
+SHA-256 ac2aba453442471bde7e2e34f74e36b58062701b5be6523b22f9b432f4edf6f6
+submission: /workspace/xG_United/submission/xG United.csv
+OK    xG United.csv
+      199319 rows, frame 0..199318
+
+      label counts
+        H    51770   26.0%
+        A    30708   15.4%
+        D    76379   38.3%
+        X    40462   20.3%
+
+      reports 242 possessions of mean 13.6 s
+      (counted with each X as a gap; the scorer bridges abstentions inside a real
+       possession, so its count can be lower than this one)
+
+Valid. Note this checks the format only -- it says nothing about whether the labels are right.
+Score it against the public ground truth with run_evaluation.py.
+Exact submission verified: /workspace/xG_United/submission/xG United.csv
+SHA-256 ac2aba453442471bde7e2e34f74e36b58062701b5be6523b22f9b432f4edf6f6
+CLEAN_REPRODUCTION_PASSED
